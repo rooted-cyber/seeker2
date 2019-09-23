@@ -6,6 +6,7 @@ apt install toilet
 apt install python
 apt install python2
 apt install curl
+apt install openssh
 apt install wget
 apt install php
 cd $HOME/seeker2
@@ -22,8 +23,8 @@ clear
 echo "Successfully installed"|$c
 echo
 sleep 2
-echo -e "\033[93m Now you can start seeker type this command:-"
-echo "		seeker"|$c
+echo -e "\033[93m Now you can start seeker type this command:-"|$c
+echo "		seeker"
 echo
 echo -e "\033[92m Press enter for start seeker"
 read
