@@ -26,5 +26,6 @@ echo -e "\033[93m Now you can start seeker type this command:-"
 echo "		seeker"|$c
 echo
 echo -e "\033[92m Press enter for start seeker"
+read
 cd $HOME/.seeker
 python seeker.py
