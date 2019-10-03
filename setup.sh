@@ -18,7 +18,7 @@ bash install.sh
 cp -f seeker $PREFIX/bin
 chmod 777 $PREFIX/bin/seeker
 cd $HOME
-mv seeker2 .seeker
+mv seeker2 seeker\ 2
 clear
 echo "Successfully installed"|$c
 echo
@@ -28,5 +28,5 @@ echo "		seeker"
 echo
 echo -e "\033[92m Press enter for start seeker"
 read
-cd $HOME/.seeker
+cd $HOME/seeker\ 2
 python seeker.py
