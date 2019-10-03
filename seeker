@@ -1,3 +1,3 @@
 #!/data/data/com.termux/files/usr/bin/sh
-cd $HOME/.seeker
+cd $HOME/seeker\ 2
 python seeker.py
